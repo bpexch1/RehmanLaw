@@ -1,0 +1,15 @@
+{
+  "name": "taxlegal-hero-3d",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.165.0",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.109.2"
+  },
+  "notes": {
+    "draco_decoder": "Copy the decoder files from node_modules/three/examples/jsm/libs/draco/ into /public/draco/ so useGLTF's DRACOLoader (pointed at '/draco/' in ScalesOfJustice.jsx) can find them at runtime. Only needed once you add a real Draco-compressed scales.glb.",
+    "tailwind": "Hero.jsx uses utility classes (grad-text, btn-wa, btn-outline, pill) that already exist in the site's current stylesheet — copy them over unchanged if this hero is dropped into a plain-CSS project instead of Tailwind."
+  }
+}
